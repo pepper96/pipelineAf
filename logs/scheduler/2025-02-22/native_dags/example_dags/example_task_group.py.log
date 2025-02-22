@@ -1,0 +1,71 @@
+[2025-02-22T11:40:42.060-0300] {processor.py:186} INFO - Started process (PID=3856) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:40:42.060-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-02-22T11:40:42.061-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:40:42.061-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:40:42.067-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:40:42.182-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:40:42.182-0300] {override.py:1930} INFO - Created Permission View: can read on DAG:example_task_group
+[2025-02-22T11:40:42.191-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:40:42.191-0300] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_task_group
+[2025-02-22T11:40:42.198-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:40:42.198-0300] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_task_group
+[2025-02-22T11:40:42.211-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:40:42.211-0300] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_task_group
+[2025-02-22T11:40:42.218-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:40:42.218-0300] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_task_group
+[2025-02-22T11:40:42.226-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:40:42.225-0300] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_task_group
+[2025-02-22T11:40:42.233-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:40:42.233-0300] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_task_group
+[2025-02-22T11:40:42.233-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:40:42.233-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:40:42.239-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:40:42.239-0300] {dag.py:3262} INFO - Creating ORM DAG for example_task_group
+[2025-02-22T11:40:42.239-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:40:42.239-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-02-22T11:40:42.253-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.197 seconds
+[2025-02-22T11:41:53.230-0300] {processor.py:186} INFO - Started process (PID=4207) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:41:53.232-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-02-22T11:41:53.233-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:53.232-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:41:53.239-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:41:53.248-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:53.248-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:41:53.256-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:53.256-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-02-22T11:41:53.271-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.045 seconds
+[2025-02-22T11:42:50.406-0300] {processor.py:186} INFO - Started process (PID=4428) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:42:50.408-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-02-22T11:42:50.410-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:42:50.410-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:42:50.416-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:42:50.429-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:42:50.428-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:42:50.436-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:42:50.436-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-02-22T11:42:50.459-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.057 seconds
+[2025-02-22T11:43:58.529-0300] {processor.py:186} INFO - Started process (PID=4682) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:43:58.532-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-02-22T11:43:58.533-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:43:58.533-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:43:58.539-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:43:58.549-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:43:58.549-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:43:58.558-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:43:58.558-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-02-22T11:43:58.576-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.051 seconds
+[2025-02-22T11:45:01.796-0300] {processor.py:186} INFO - Started process (PID=4905) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:45:01.797-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-02-22T11:45:01.798-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:45:01.798-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:45:01.804-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:45:01.814-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:45:01.814-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:45:01.821-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:45:01.821-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-02-22T11:45:01.837-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.044 seconds
+[2025-02-22T11:46:05.458-0300] {processor.py:186} INFO - Started process (PID=5140) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:46:05.461-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-02-22T11:46:05.462-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:46:05.462-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:46:05.468-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:46:05.479-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:46:05.478-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:46:05.486-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:46:05.486-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-02-22T11:46:05.506-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.053 seconds
+[2025-02-22T11:47:12.966-0300] {processor.py:186} INFO - Started process (PID=5384) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:47:12.967-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-02-22T11:47:12.968-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:47:12.968-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:47:12.974-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:47:12.983-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:47:12.983-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:47:12.989-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:47:12.989-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-02-22T11:47:13.006-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.046 seconds
+[2025-02-22T11:48:12.942-0300] {processor.py:186} INFO - Started process (PID=5615) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:48:12.943-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-02-22T11:48:12.944-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:48:12.943-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:48:12.949-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:48:12.959-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:48:12.959-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:48:12.966-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:48:12.966-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-02-22T11:48:12.981-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.042 seconds
+[2025-02-22T11:49:15.748-0300] {processor.py:186} INFO - Started process (PID=5875) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:49:15.751-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-02-22T11:49:15.752-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:49:15.751-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:49:15.757-0300] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2025-02-22T11:49:15.766-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:49:15.766-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:49:15.774-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:49:15.773-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-02-22T11:49:15.787-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.042 seconds

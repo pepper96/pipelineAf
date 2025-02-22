@@ -1,0 +1,71 @@
+[2025-02-22T11:40:58.000-0300] {processor.py:186} INFO - Started process (PID=3930) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:40:58.001-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-02-22T11:40:58.002-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:40:58.002-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:40:58.008-0300] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:40:58.144-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:40:58.143-0300] {override.py:1930} INFO - Created Permission View: can read on DAG:example_setup_teardown
+[2025-02-22T11:40:58.153-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:40:58.152-0300] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_setup_teardown
+[2025-02-22T11:40:58.160-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:40:58.160-0300] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_setup_teardown
+[2025-02-22T11:40:58.172-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:40:58.171-0300] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_setup_teardown
+[2025-02-22T11:40:58.179-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:40:58.178-0300] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_setup_teardown
+[2025-02-22T11:40:58.186-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:40:58.186-0300] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_setup_teardown
+[2025-02-22T11:40:58.193-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:40:58.192-0300] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_setup_teardown
+[2025-02-22T11:40:58.193-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:40:58.193-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:40:58.198-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:40:58.198-0300] {dag.py:3262} INFO - Creating ORM DAG for example_setup_teardown
+[2025-02-22T11:40:58.199-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:40:58.199-0300] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-02-22T11:40:58.213-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.216 seconds
+[2025-02-22T11:42:06.281-0300] {processor.py:186} INFO - Started process (PID=4257) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:42:06.283-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-02-22T11:42:06.285-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:42:06.285-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:42:06.291-0300] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:42:06.302-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:42:06.301-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:42:06.309-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:42:06.309-0300] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-02-22T11:42:06.328-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.051 seconds
+[2025-02-22T11:43:06.712-0300] {processor.py:186} INFO - Started process (PID=4483) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:43:06.718-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-02-22T11:43:06.720-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:43:06.719-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:43:06.725-0300] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:43:06.734-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:43:06.734-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:43:06.742-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:43:06.742-0300] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-02-22T11:43:06.758-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.049 seconds
+[2025-02-22T11:44:14.310-0300] {processor.py:186} INFO - Started process (PID=4731) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:44:14.317-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-02-22T11:44:14.318-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:44:14.318-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:44:14.324-0300] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:44:14.332-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:44:14.332-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:44:14.339-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:44:14.339-0300] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-02-22T11:44:14.356-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.049 seconds
+[2025-02-22T11:45:15.061-0300] {processor.py:186} INFO - Started process (PID=4960) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:45:15.061-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-02-22T11:45:15.063-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:45:15.063-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:45:15.068-0300] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:45:15.078-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:45:15.078-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:45:15.084-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:45:15.084-0300] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-02-22T11:45:15.101-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.044 seconds
+[2025-02-22T11:46:19.118-0300] {processor.py:186} INFO - Started process (PID=5195) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:46:19.121-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-02-22T11:46:19.121-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:46:19.121-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:46:19.127-0300] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:46:19.135-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:46:19.135-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:46:19.142-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:46:19.142-0300] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-02-22T11:46:19.159-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.045 seconds
+[2025-02-22T11:47:24.519-0300] {processor.py:186} INFO - Started process (PID=5433) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:47:24.521-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-02-22T11:47:24.522-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:47:24.522-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:47:24.527-0300] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:47:24.536-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:47:24.536-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:47:24.544-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:47:24.543-0300] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-02-22T11:47:24.560-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.045 seconds
+[2025-02-22T11:48:28.099-0300] {processor.py:186} INFO - Started process (PID=5658) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:48:28.101-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-02-22T11:48:28.101-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:48:28.101-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:48:28.107-0300] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:48:28.115-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:48:28.115-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:48:28.122-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:48:28.122-0300] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-02-22T11:48:28.136-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.041 seconds
+[2025-02-22T11:49:27.974-0300] {processor.py:186} INFO - Started process (PID=5939) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:49:27.975-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-02-22T11:49:27.976-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:49:27.976-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:49:27.983-0300] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-02-22T11:49:27.992-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:49:27.992-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:49:28.000-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:49:28.000-0300] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-02-22T11:49:28.016-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.045 seconds

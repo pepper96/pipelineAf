@@ -1,0 +1,114 @@
+[2025-02-22T12:59:09.437-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-22T12:59:09.443-0300] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fii_info.transform.extract manual__2025-02-22T15:59:03.663158+00:00 [queued]>
+[2025-02-22T12:59:09.446-0300] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fii_info.transform.extract manual__2025-02-22T15:59:03.663158+00:00 [queued]>
+[2025-02-22T12:59:09.446-0300] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-02-22T12:59:09.459-0300] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): transform.extract> on 2025-02-22 15:59:03.663158+00:00
+[2025-02-22T12:59:09.460-0300] {standard_task_runner.py:72} INFO - Started process 18040 to run task
+[2025-02-22T12:59:09.462-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'fii_info', 'transform.extract', 'manual__2025-02-22T15:59:03.663158+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/info_Fii.py', '--cfg-path', '/tmp/tmp2r8q7ki5']
+[2025-02-22T12:59:09.464-0300] {standard_task_runner.py:105} INFO - Job 5: Subtask transform.extract
+[2025-02-22T12:59:09.493-0300] {task_command.py:467} INFO - Running <TaskInstance: fii_info.transform.extract manual__2025-02-22T15:59:03.663158+00:00 [running]> on host LAPTOP-3G01DURD.
+[2025-02-22T12:59:09.536-0300] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='fii_info' AIRFLOW_CTX_TASK_ID='transform.extract' AIRFLOW_CTX_EXECUTION_DATE='2025-02-22T15:59:03.663158+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-22T15:59:03.663158+00:00'
+[2025-02-22T12:59:09.537-0300] {taskinstance.py:732} INFO - ::endgroup::
+[2025-02-22T12:59:09.538-0300] {logging_mixin.py:190} INFO - YF.download() has changed argument auto_adjust default to True
+[2025-02-22T12:59:09.542-0300] {cache.py:130} INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/home/lpimenta/.cache/py-yfinance' reason: [Errno 17] File exists: '/home/lpimenta/.cache/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+[2025-02-22T12:59:09.542-0300] {cache.py:130} INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/home/lpimenta/.cache/py-yfinance' reason: [Errno 17] File exists: '/home/lpimenta/.cache/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+[2025-02-22T12:59:09.543-0300] {cache.py:130} INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/home/lpimenta/.cache/py-yfinance' reason: [Errno 17] File exists: '/home/lpimenta/.cache/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+[2025-02-22T12:59:11.230-0300] {python.py:240} INFO - Done. Returned value was: Price           Close                                             ...    Volume                                        
+Ticker      DEVA11.SA  HCTR11.SA  IRDM11.SA  LSAG11.SA MXRF11.SA  ... RECR11.SA TGAR11.SA TRXF11.SA VGIP11.SA VRTA11.SA
+Date                                                              ...                                                  
+2025-02-17  27.559999  21.700001  61.180000  66.370003      9.03  ...     39118     71885     37991     18520     23454
+2025-02-18  27.969999  21.920000  61.750000  65.500000      9.04  ...     31054     62538     32758     12996     23997
+2025-02-19  27.730000  21.900000  61.919998  66.360001      9.10  ...     25202     42627     35591     11188     19122
+2025-02-20  27.940001  22.139999  61.779999  66.360001      9.19  ...     31842     67896     38656     21547     23209
+2025-02-21  28.490000  22.600000  62.790001  67.900002      9.12  ...     29392     66130     76273     12155     22457
+
+[5 rows x 50 columns]
+[2025-02-22T12:59:11.257-0300] {taskinstance.py:3313} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 790, in _execute_task
+    task_instance.xcom_push(key=XCOM_RETURN_KEY, value=xcom_value, session=session_or_null)
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3645, in xcom_push
+    XCom.set(
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/api_internal/internal_api_call.py", line 166, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/models/xcom.py", line 249, in set
+    value = cls.serialize_value(
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/models/xcom.py", line 688, in serialize_value
+    return json.dumps(value, cls=XComEncoder).encode("UTF-8")
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/utils/json.py", line 105, in encode
+    return super().encode(o)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/utils/json.py", line 92, in default
+    return serialize(o)
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/serialization/serde.py", line 149, in serialize
+    data, serialized_classname, version, is_serialized = _serializers[qn].serialize(o)
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/serialization/serializers/pandas.py", line 40, in serialize
+    import pyarrow as pa
+ModuleNotFoundError: No module named 'pyarrow'
+[2025-02-22T12:59:11.263-0300] {taskinstance.py:1226} INFO - Marking task as FAILED. dag_id=fii_info, task_id=transform.extract, run_id=manual__2025-02-22T15:59:03.663158+00:00, execution_date=20250222T155903, start_date=20250222T155909, end_date=20250222T155911
+[2025-02-22T12:59:11.280-0300] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-02-22T12:59:11.280-0300] {standard_task_runner.py:124} ERROR - Failed to execute job 5 for task transform.extract (No module named 'pyarrow'; 18040)
+Traceback (most recent call last):
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3006, in _run_raw_task
+    return _run_raw_task(
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 274, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3161, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3185, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 790, in _execute_task
+    task_instance.xcom_push(key=XCOM_RETURN_KEY, value=xcom_value, session=session_or_null)
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3645, in xcom_push
+    XCom.set(
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/api_internal/internal_api_call.py", line 166, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/models/xcom.py", line 249, in set
+    value = cls.serialize_value(
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/models/xcom.py", line 688, in serialize_value
+    return json.dumps(value, cls=XComEncoder).encode("UTF-8")
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/utils/json.py", line 105, in encode
+    return super().encode(o)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/utils/json.py", line 92, in default
+    return serialize(o)
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/serialization/serde.py", line 149, in serialize
+    data, serialized_classname, version, is_serialized = _serializers[qn].serialize(o)
+  File "/home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/serialization/serializers/pandas.py", line 40, in serialize
+    import pyarrow as pa
+ModuleNotFoundError: No module named 'pyarrow'
+[2025-02-22T12:59:11.322-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-02-22T12:59:11.334-0300] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-22T12:59:11.344-0300] {local_task_job_runner.py:245} INFO - ::endgroup::

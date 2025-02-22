@@ -1,0 +1,64 @@
+[2025-02-22T11:41:20.047-0300] {processor.py:186} INFO - Started process (PID=4017) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-02-22T11:41:20.048-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2025-02-22T11:41:20.049-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:20.049-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-02-22T11:41:20.053-0300] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-02-22T11:41:20.162-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:20.162-0300] {override.py:1930} INFO - Created Permission View: can read on DAG:example_trigger_target_dag
+[2025-02-22T11:41:20.173-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:20.172-0300] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_trigger_target_dag
+[2025-02-22T11:41:20.182-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:20.181-0300] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_trigger_target_dag
+[2025-02-22T11:41:20.196-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:20.196-0300] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_trigger_target_dag
+[2025-02-22T11:41:20.206-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:20.205-0300] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_trigger_target_dag
+[2025-02-22T11:41:20.216-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:20.216-0300] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_trigger_target_dag
+[2025-02-22T11:41:20.225-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:20.224-0300] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_trigger_target_dag
+[2025-02-22T11:41:20.225-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:20.225-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:41:20.230-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:20.230-0300] {dag.py:3262} INFO - Creating ORM DAG for example_trigger_target_dag
+[2025-02-22T11:41:20.231-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:20.230-0300] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2025-02-22T11:41:20.244-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.201 seconds
+[2025-02-22T11:42:31.881-0300] {processor.py:186} INFO - Started process (PID=4351) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-02-22T11:42:31.885-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2025-02-22T11:42:31.887-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:42:31.887-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-02-22T11:42:31.892-0300] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-02-22T11:42:31.900-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:42:31.900-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:42:31.907-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:42:31.907-0300] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2025-02-22T11:42:31.924-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.046 seconds
+[2025-02-22T11:43:29.234-0300] {processor.py:186} INFO - Started process (PID=4578) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-02-22T11:43:29.237-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2025-02-22T11:43:29.238-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:43:29.238-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-02-22T11:43:29.243-0300] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-02-22T11:43:29.253-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:43:29.252-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:43:29.259-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:43:29.259-0300] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2025-02-22T11:43:29.274-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.045 seconds
+[2025-02-22T11:44:33.684-0300] {processor.py:186} INFO - Started process (PID=4808) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-02-22T11:44:33.686-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2025-02-22T11:44:33.688-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:44:33.687-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-02-22T11:44:33.694-0300] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-02-22T11:44:33.702-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:44:33.702-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:44:33.709-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:44:33.709-0300] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2025-02-22T11:44:33.724-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.044 seconds
+[2025-02-22T11:45:39.898-0300] {processor.py:186} INFO - Started process (PID=5043) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-02-22T11:45:39.900-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2025-02-22T11:45:39.901-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:45:39.900-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-02-22T11:45:39.906-0300] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-02-22T11:45:39.916-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:45:39.916-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:45:39.925-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:45:39.925-0300] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2025-02-22T11:45:39.941-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.047 seconds
+[2025-02-22T11:46:46.536-0300] {processor.py:186} INFO - Started process (PID=5291) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-02-22T11:46:46.537-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2025-02-22T11:46:46.538-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:46:46.538-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-02-22T11:46:46.544-0300] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-02-22T11:46:46.552-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:46:46.552-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:46:46.560-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:46:46.560-0300] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2025-02-22T11:46:46.574-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.042 seconds
+[2025-02-22T11:47:47.513-0300] {processor.py:186} INFO - Started process (PID=5509) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-02-22T11:47:47.515-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2025-02-22T11:47:47.516-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:47:47.516-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-02-22T11:47:47.523-0300] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-02-22T11:47:47.537-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:47:47.536-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:47:47.547-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:47:47.546-0300] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2025-02-22T11:47:47.567-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.058 seconds
+[2025-02-22T11:48:47.338-0300] {processor.py:186} INFO - Started process (PID=5763) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-02-22T11:48:47.340-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2025-02-22T11:48:47.340-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:48:47.340-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-02-22T11:48:47.346-0300] {processor.py:925} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2025-02-22T11:48:47.354-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:48:47.354-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:48:47.363-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:48:47.363-0300] {dag.py:4180} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2025-02-22T11:48:47.378-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.045 seconds

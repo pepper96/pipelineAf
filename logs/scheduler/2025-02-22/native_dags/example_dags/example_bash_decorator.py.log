@@ -1,0 +1,64 @@
+[2025-02-22T11:41:30.389-0300] {processor.py:186} INFO - Started process (PID=4064) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-02-22T11:41:30.389-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2025-02-22T11:41:30.391-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:30.390-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-02-22T11:41:30.480-0300] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-02-22T11:41:30.562-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:30.561-0300] {override.py:1930} INFO - Created Permission View: can read on DAG:example_bash_decorator
+[2025-02-22T11:41:30.578-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:30.577-0300] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_bash_decorator
+[2025-02-22T11:41:30.589-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:30.589-0300] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_bash_decorator
+[2025-02-22T11:41:30.607-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:30.607-0300] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_bash_decorator
+[2025-02-22T11:41:30.617-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:30.616-0300] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_bash_decorator
+[2025-02-22T11:41:30.629-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:30.628-0300] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_bash_decorator
+[2025-02-22T11:41:30.641-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:30.640-0300] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_bash_decorator
+[2025-02-22T11:41:30.641-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:30.641-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:41:30.655-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:30.655-0300] {dag.py:3262} INFO - Creating ORM DAG for example_bash_decorator
+[2025-02-22T11:41:30.656-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:41:30.656-0300] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2025-02-22T11:41:30.677-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py took 0.292 seconds
+[2025-02-22T11:42:38.725-0300] {processor.py:186} INFO - Started process (PID=4386) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-02-22T11:42:38.726-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2025-02-22T11:42:38.727-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:42:38.727-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-02-22T11:42:38.737-0300] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-02-22T11:42:38.747-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:42:38.747-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:42:38.754-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:42:38.753-0300] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2025-02-22T11:42:38.770-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py took 0.049 seconds
+[2025-02-22T11:43:42.258-0300] {processor.py:186} INFO - Started process (PID=4618) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-02-22T11:43:42.263-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2025-02-22T11:43:42.265-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:43:42.264-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-02-22T11:43:42.274-0300] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-02-22T11:43:42.284-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:43:42.284-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:43:42.291-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:43:42.291-0300] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2025-02-22T11:43:42.306-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py took 0.052 seconds
+[2025-02-22T11:44:43.944-0300] {processor.py:186} INFO - Started process (PID=4848) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-02-22T11:44:43.947-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2025-02-22T11:44:43.949-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:44:43.948-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-02-22T11:44:43.957-0300] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-02-22T11:44:43.967-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:44:43.967-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:44:43.974-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:44:43.973-0300] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2025-02-22T11:44:43.989-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py took 0.049 seconds
+[2025-02-22T11:45:49.035-0300] {processor.py:186} INFO - Started process (PID=5086) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-02-22T11:45:49.038-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2025-02-22T11:45:49.039-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:45:49.038-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-02-22T11:45:49.050-0300] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-02-22T11:45:49.066-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:45:49.066-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:45:49.078-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:45:49.077-0300] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2025-02-22T11:45:49.098-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py took 0.068 seconds
+[2025-02-22T11:46:55.842-0300] {processor.py:186} INFO - Started process (PID=5325) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-02-22T11:46:55.844-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2025-02-22T11:46:55.845-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:46:55.845-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-02-22T11:46:55.854-0300] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-02-22T11:46:55.864-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:46:55.864-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:46:55.871-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:46:55.871-0300] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2025-02-22T11:46:55.886-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py took 0.048 seconds
+[2025-02-22T11:47:57.632-0300] {processor.py:186} INFO - Started process (PID=5549) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-02-22T11:47:57.633-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2025-02-22T11:47:57.634-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:47:57.633-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-02-22T11:47:57.643-0300] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-02-22T11:47:57.655-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:47:57.654-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:47:57.663-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:47:57.663-0300] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2025-02-22T11:47:57.678-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py took 0.050 seconds
+[2025-02-22T11:49:01.162-0300] {processor.py:186} INFO - Started process (PID=5818) to work on /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-02-22T11:49:01.164-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2025-02-22T11:49:01.165-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:49:01.165-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-02-22T11:49:01.173-0300] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-02-22T11:49:01.185-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:49:01.184-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T11:49:01.192-0300] {logging_mixin.py:190} INFO - [2025-02-22T11:49:01.192-0300] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2025-02-22T11:49:01.208-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py took 0.050 seconds
