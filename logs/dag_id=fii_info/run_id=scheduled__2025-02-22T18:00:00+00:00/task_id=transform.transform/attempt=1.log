@@ -1,0 +1,67 @@
+[2025-02-22T15:10:10.145-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-22T15:10:10.157-0300] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fii_info.transform.transform scheduled__2025-02-22T18:00:00+00:00 [queued]>
+[2025-02-22T15:10:10.167-0300] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fii_info.transform.transform scheduled__2025-02-22T18:00:00+00:00 [queued]>
+[2025-02-22T15:10:10.167-0300] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-02-22T15:10:10.191-0300] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): transform.transform> on 2025-02-22 18:00:00+00:00
+[2025-02-22T15:10:10.195-0300] {standard_task_runner.py:72} INFO - Started process 43453 to run task
+[2025-02-22T15:10:10.200-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'fii_info', 'transform.transform', 'scheduled__2025-02-22T18:00:00+00:00', '--job-id', '65', '--raw', '--subdir', 'DAGS_FOLDER/info_Fii.py', '--cfg-path', '/tmp/tmp7h5ae45y']
+[2025-02-22T15:10:10.203-0300] {standard_task_runner.py:105} INFO - Job 65: Subtask transform.transform
+[2025-02-22T15:10:10.247-0300] {task_command.py:467} INFO - Running <TaskInstance: fii_info.transform.transform scheduled__2025-02-22T18:00:00+00:00 [running]> on host LAPTOP-3G01DURD.
+[2025-02-22T15:10:10.458-0300] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='fii_info' AIRFLOW_CTX_TASK_ID='transform.transform' AIRFLOW_CTX_EXECUTION_DATE='2025-02-22T18:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-02-22T18:00:00+00:00'
+[2025-02-22T15:10:10.460-0300] {taskinstance.py:732} INFO - ::endgroup::
+[2025-02-22T15:10:10.471-0300] {python.py:240} INFO - Done. Returned value was:           Date        FII       Close
+0   17/02/2025  IRDM11.SA   61.180000
+1   18/02/2025  IRDM11.SA   61.750000
+2   19/02/2025  IRDM11.SA   61.919998
+3   20/02/2025  IRDM11.SA   61.779999
+4   21/02/2025  IRDM11.SA   62.790001
+5   17/02/2025  LSAG11.SA   66.370003
+6   18/02/2025  LSAG11.SA   65.500000
+7   19/02/2025  LSAG11.SA   66.360001
+8   20/02/2025  LSAG11.SA   66.360001
+9   21/02/2025  LSAG11.SA   67.900002
+10  17/02/2025  RECR11.SA   72.250000
+11  18/02/2025  RECR11.SA   74.059998
+12  19/02/2025  RECR11.SA   74.500000
+13  20/02/2025  RECR11.SA   75.120003
+14  21/02/2025  RECR11.SA   75.010002
+15  17/02/2025  TGAR11.SA   76.239998
+16  18/02/2025  TGAR11.SA   76.970001
+17  19/02/2025  TGAR11.SA   77.379997
+18  20/02/2025  TGAR11.SA   79.550003
+19  21/02/2025  TGAR11.SA   80.809998
+20  17/02/2025  TRXF11.SA   99.839996
+21  18/02/2025  TRXF11.SA   99.750000
+22  19/02/2025  TRXF11.SA  100.000000
+23  20/02/2025  TRXF11.SA  100.419998
+24  21/02/2025  TRXF11.SA  100.839996
+25  17/02/2025  VRTA11.SA   73.989998
+26  18/02/2025  VRTA11.SA   74.000000
+27  19/02/2025  VRTA11.SA   73.980003
+28  20/02/2025  VRTA11.SA   74.099998
+29  21/02/2025  VRTA11.SA   74.779999
+30  17/02/2025  HCTR11.SA   21.700001
+31  18/02/2025  HCTR11.SA   21.920000
+32  19/02/2025  HCTR11.SA   21.900000
+33  20/02/2025  HCTR11.SA   22.139999
+34  21/02/2025  HCTR11.SA   22.600000
+35  17/02/2025  VGIP11.SA   76.519997
+36  18/02/2025  VGIP11.SA   76.449997
+37  19/02/2025  VGIP11.SA   76.190002
+38  20/02/2025  VGIP11.SA   76.360001
+39  21/02/2025  VGIP11.SA   76.589996
+40  17/02/2025  DEVA11.SA   27.559999
+41  18/02/2025  DEVA11.SA   27.969999
+42  19/02/2025  DEVA11.SA   27.730000
+43  20/02/2025  DEVA11.SA   27.940001
+44  21/02/2025  DEVA11.SA   28.490000
+45  17/02/2025  MXRF11.SA    9.030000
+46  18/02/2025  MXRF11.SA    9.040000
+47  19/02/2025  MXRF11.SA    9.100000
+48  20/02/2025  MXRF11.SA    9.190000
+49  21/02/2025  MXRF11.SA    9.120000
+[2025-02-22T15:10:10.503-0300] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-02-22T15:10:10.503-0300] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=fii_info, task_id=transform.transform, run_id=scheduled__2025-02-22T18:00:00+00:00, execution_date=20250222T180000, start_date=20250222T181010, end_date=20250222T181010
+[2025-02-22T15:10:10.573-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-22T15:10:10.591-0300] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-02-22T15:10:10.599-0300] {local_task_job_runner.py:245} INFO - ::endgroup::

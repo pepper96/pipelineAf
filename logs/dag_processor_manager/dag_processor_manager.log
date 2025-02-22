@@ -3093,3 +3093,611 @@ File Path                                           PID    Runtime      # DAGs  
 /home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.20s           2025-02-22T16:57:17                      12
 ================================================================================
 [2025-02-22T13:57:33.641-0300] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-02-22T14:20:37.024-0300] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-02-22T14:20:37.025-0300] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-02-22T14:20:37.025-0300] {manager.py:485} INFO - Checking for new files in /home/lpimenta/pipelineAf/dags every 300 seconds
+[2025-02-22T14:20:37.025-0300] {manager.py:821} INFO - Searching for files in /home/lpimenta/pipelineAf/dags
+[2025-02-22T14:20:37.027-0300] {manager.py:824} INFO - There are 2 files in /home/lpimenta/pipelineAf/dags
+[2025-02-22T14:20:38.015-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.91s           2025-02-22T17:20:38                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           0           0                                                            0
+================================================================================
+[2025-02-22T14:21:12.113-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  1.22s           2025-02-22T17:21:10                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.41s           2025-02-22T17:21:11                      12
+================================================================================
+[2025-02-22T14:21:45.951-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.80s           2025-02-22T17:21:41                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.20s           2025-02-22T17:21:42                      12
+================================================================================
+[2025-02-22T14:22:20.072-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.81s           2025-02-22T17:22:13                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.30s           2025-02-22T17:22:13                      12
+================================================================================
+[2025-02-22T14:22:53.730-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  4.39s           2025-02-22T17:22:48                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.20s           2025-02-22T17:22:49                      12
+================================================================================
+[2025-02-22T14:23:28.000-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.81s           2025-02-22T17:23:19                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.20s           2025-02-22T17:23:24                      12
+================================================================================
+[2025-02-22T14:23:45.113-0300] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-02-22T14:49:26.485-0300] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-02-22T14:49:26.486-0300] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-02-22T14:49:26.486-0300] {manager.py:485} INFO - Checking for new files in /home/lpimenta/pipelineAf/dags every 300 seconds
+[2025-02-22T14:49:26.487-0300] {manager.py:821} INFO - Searching for files in /home/lpimenta/pipelineAf/dags
+[2025-02-22T14:49:26.489-0300] {manager.py:824} INFO - There are 2 files in /home/lpimenta/pipelineAf/dags
+[2025-02-22T14:49:27.477-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.91s           2025-02-22T17:49:27                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           0           0                                                            0
+================================================================================
+[2025-02-22T14:50:00.693-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.90s           2025-02-22T17:49:58                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.20s           2025-02-22T17:49:59                      12
+================================================================================
+[2025-02-22T14:50:33.802-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.91s           2025-02-22T17:50:29                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.20s           2025-02-22T17:50:30                      12
+================================================================================
+[2025-02-22T14:51:07.351-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  1.21s           2025-02-22T17:51:01                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.21s           2025-02-22T17:51:02                      12
+================================================================================
+[2025-02-22T14:51:40.606-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  1.01s           2025-02-22T17:51:32                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.31s           2025-02-22T17:51:33                      12
+================================================================================
+[2025-02-22T14:52:13.547-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.70s           2025-02-22T17:52:03                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T17:52:04                      12
+================================================================================
+[2025-02-22T14:52:46.870-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.81s           2025-02-22T17:52:36                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.20s           2025-02-22T17:52:38                      12
+================================================================================
+[2025-02-22T14:53:20.154-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  3.74s           2025-02-22T17:53:10                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.31s           2025-02-22T17:53:12                      12
+================================================================================
+[2025-02-22T14:53:53.139-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.81s           2025-02-22T17:53:41                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.20s           2025-02-22T17:53:46                      12
+================================================================================
+[2025-02-22T14:54:26.185-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.71s           2025-02-22T17:54:12                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.21s           2025-02-22T17:54:17                      12
+================================================================================
+[2025-02-22T14:54:27.216-0300] {manager.py:821} INFO - Searching for files in /home/lpimenta/pipelineAf/dags
+[2025-02-22T14:54:27.217-0300] {manager.py:824} INFO - There are 2 files in /home/lpimenta/pipelineAf/dags
+[2025-02-22T14:54:59.578-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.70s           2025-02-22T17:54:45                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.21s           2025-02-22T17:54:48                      12
+================================================================================
+[2025-02-22T14:55:32.594-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.81s           2025-02-22T17:55:16                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.22s           2025-02-22T17:55:20                      12
+================================================================================
+[2025-02-22T14:56:02.713-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.81s           2025-02-22T17:55:47                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.20s           2025-02-22T17:55:50                      12
+================================================================================
+[2025-02-22T14:56:36.470-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.80s           2025-02-22T17:56:18                      34
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.21s           2025-02-22T17:56:23                      12
+================================================================================
+[2025-02-22T14:57:09.667-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  1.01s           2025-02-22T17:56:50                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T17:56:54                      12
+================================================================================
+[2025-02-22T14:57:43.153-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.70s           2025-02-22T17:57:21                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T17:57:25                      12
+================================================================================
+[2025-02-22T14:58:16.320-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  1.11s           2025-02-22T17:57:53                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.20s           2025-02-22T17:57:56                      12
+================================================================================
+[2025-02-22T14:58:49.507-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  3.63s           2025-02-22T17:58:27                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T17:58:28                      12
+================================================================================
+[2025-02-22T14:59:22.773-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.70s           2025-02-22T17:58:57                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T17:58:58                      12
+================================================================================
+[2025-02-22T14:59:27.802-0300] {manager.py:821} INFO - Searching for files in /home/lpimenta/pipelineAf/dags
+[2025-02-22T14:59:27.804-0300] {manager.py:824} INFO - There are 2 files in /home/lpimenta/pipelineAf/dags
+[2025-02-22T14:59:55.909-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.70s           2025-02-22T17:59:29                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.11s           2025-02-22T17:59:30                      12
+================================================================================
+[2025-02-22T15:00:29.262-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.70s           2025-02-22T18:00:00                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:00:01                      12
+================================================================================
+[2025-02-22T15:01:02.952-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.70s           2025-02-22T18:01:02                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:00:32                      12
+================================================================================
+[2025-02-22T15:01:35.966-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.70s           2025-02-22T18:01:34                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:01:34                      12
+================================================================================
+[2025-02-22T15:02:08.957-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.70s           2025-02-22T18:02:05                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:02:06                      12
+================================================================================
+[2025-02-22T15:02:41.951-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.70s           2025-02-22T18:02:36                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:02:37                      12
+================================================================================
+[2025-02-22T15:03:14.949-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.71s           2025-02-22T18:03:09                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:03:09                      12
+================================================================================
+[2025-02-22T15:03:47.954-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.70s           2025-02-22T18:03:40                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:03:44                      12
+================================================================================
+[2025-02-22T15:04:20.950-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.71s           2025-02-22T18:04:11                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:04:14                      12
+================================================================================
+[2025-02-22T15:04:28.789-0300] {manager.py:821} INFO - Searching for files in /home/lpimenta/pipelineAf/dags
+[2025-02-22T15:04:28.790-0300] {manager.py:824} INFO - There are 2 files in /home/lpimenta/pipelineAf/dags
+[2025-02-22T15:04:51.013-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.70s           2025-02-22T18:04:42                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:04:45                      12
+================================================================================
+[2025-02-22T15:05:23.655-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.71s           2025-02-22T18:05:14                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.20s           2025-02-22T18:05:15                      12
+================================================================================
+[2025-02-22T15:05:55.580-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.71s           2025-02-22T18:05:45                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.11s           2025-02-22T18:05:46                      12
+================================================================================
+[2025-02-22T15:06:28.575-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.70s           2025-02-22T18:06:16                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.20s           2025-02-22T18:06:17                      12
+================================================================================
+[2025-02-22T15:07:02.250-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.80s           2025-02-22T18:06:47                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:06:48                      12
+================================================================================
+[2025-02-22T15:07:35.294-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.91s           2025-02-22T18:07:18                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:07:19                      12
+================================================================================
+[2025-02-22T15:08:08.320-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.81s           2025-02-22T18:07:50                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:07:51                      12
+================================================================================
+[2025-02-22T15:08:41.321-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  3.64s           2025-02-22T18:08:24                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:08:24                      12
+================================================================================
+[2025-02-22T15:09:14.372-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.71s           2025-02-22T18:08:55                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.20s           2025-02-22T18:08:59                      12
+================================================================================
+[2025-02-22T15:09:29.357-0300] {manager.py:821} INFO - Searching for files in /home/lpimenta/pipelineAf/dags
+[2025-02-22T15:09:29.358-0300] {manager.py:824} INFO - There are 2 files in /home/lpimenta/pipelineAf/dags
+[2025-02-22T15:09:47.398-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.70s           2025-02-22T18:09:26                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:09:29                      12
+================================================================================
+[2025-02-22T15:10:20.926-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.70s           2025-02-22T18:09:57                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:10:00                      12
+================================================================================
+[2025-02-22T15:10:54.095-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.70s           2025-02-22T18:10:28                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:10:31                      12
+================================================================================
+[2025-02-22T15:11:27.132-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.70s           2025-02-22T18:10:59                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:11:01                      12
+================================================================================
+[2025-02-22T15:12:00.165-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.70s           2025-02-22T18:11:30                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:11:33                      12
+================================================================================
+[2025-02-22T15:12:33.204-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.70s           2025-02-22T18:12:32                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:12:03                      12
+================================================================================
+[2025-02-22T15:13:06.736-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.70s           2025-02-22T18:13:06                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:12:34                      12
+================================================================================
+[2025-02-22T15:13:37.547-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.70s           2025-02-22T18:13:37                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:13:07                      12
+================================================================================
+[2025-02-22T15:14:10.558-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.70s           2025-02-22T18:14:08                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:13:41                      12
+================================================================================
+[2025-02-22T15:14:30.385-0300] {manager.py:821} INFO - Searching for files in /home/lpimenta/pipelineAf/dags
+[2025-02-22T15:14:30.386-0300] {manager.py:824} INFO - There are 2 files in /home/lpimenta/pipelineAf/dags
+[2025-02-22T15:14:43.558-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.70s           2025-02-22T18:14:39                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:14:42                      12
+================================================================================
+[2025-02-22T15:15:16.634-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.70s           2025-02-22T18:15:10                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:15:13                      12
+================================================================================
+[2025-02-22T15:15:49.660-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.60s           2025-02-22T18:15:40                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:15:44                      12
+================================================================================
+[2025-02-22T15:16:22.697-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  1.11s           2025-02-22T18:16:12                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.20s           2025-02-22T18:16:15                      12
+================================================================================
+[2025-02-22T15:16:55.806-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  1.01s           2025-02-22T18:16:43                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.21s           2025-02-22T18:16:45                      12
+================================================================================
+[2025-02-22T15:17:28.835-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  1.01s           2025-02-22T18:17:14                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.20s           2025-02-22T18:17:15                      12
+================================================================================
+[2025-02-22T15:18:01.977-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  1.01s           2025-02-22T18:17:47                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.21s           2025-02-22T18:17:49                      12
+================================================================================
+[2025-02-22T15:18:34.991-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.71s           2025-02-22T18:18:18                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.11s           2025-02-22T18:18:22                      12
+================================================================================
+[2025-02-22T15:19:08.088-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  1.01s           2025-02-22T18:18:50                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.21s           2025-02-22T18:18:53                      12
+================================================================================
+[2025-02-22T15:19:33.128-0300] {manager.py:821} INFO - Searching for files in /home/lpimenta/pipelineAf/dags
+[2025-02-22T15:19:33.130-0300] {manager.py:824} INFO - There are 2 files in /home/lpimenta/pipelineAf/dags
+[2025-02-22T15:19:41.095-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.81s           2025-02-22T18:19:22                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.10s           2025-02-22T18:19:24                      12
+================================================================================
+[2025-02-22T15:20:15.370-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  1.01s           2025-02-22T18:19:53                      12
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.21s           2025-02-22T18:19:55                      12
+================================================================================
+[2025-02-22T15:20:48.544-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  0.80s           2025-02-22T18:20:33                      34
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.21s           2025-02-22T18:20:26                      12
+================================================================================
+[2025-02-22T15:21:22.198-0300] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/lpimenta/pipelineAf/dags/info_Fii.py                                   1           0  1.11s           2025-02-22T18:20:59                      11
+/home/lpimenta/pipelineAf/dags/hellow_world_dag.py                           1           0  0.21s           2025-02-22T18:20:56                      12
+================================================================================

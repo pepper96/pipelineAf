@@ -15,7 +15,7 @@ tickers = ["IRDM11.SA","LSAG11.SA","RECR11.SA","TGAR11.SA",
 
 @dag(
     dag_id = "fii_info",
-    schedule = "@daily",
+    schedule_interval="0 18 * * 1-5",
     start_date = datetime(year=2025,month=2,day=22),
     catchup=False
 )

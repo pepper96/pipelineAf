@@ -1,0 +1,17 @@
+[2025-02-22T15:20:18.891-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-22T15:20:18.909-0300] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fii_info.store.store_parquet scheduled__2025-02-22T18:10:00+00:00 [queued]>
+[2025-02-22T15:20:18.919-0300] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fii_info.store.store_parquet scheduled__2025-02-22T18:10:00+00:00 [queued]>
+[2025-02-22T15:20:18.920-0300] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-02-22T15:20:18.941-0300] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): store.store_parquet> on 2025-02-22 18:10:00+00:00
+[2025-02-22T15:20:18.945-0300] {standard_task_runner.py:72} INFO - Started process 45399 to run task
+[2025-02-22T15:20:18.950-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'fii_info', 'store.store_parquet', 'scheduled__2025-02-22T18:10:00+00:00', '--job-id', '71', '--raw', '--subdir', 'DAGS_FOLDER/info_Fii.py', '--cfg-path', '/tmp/tmpsfadyvs5']
+[2025-02-22T15:20:18.952-0300] {standard_task_runner.py:105} INFO - Job 71: Subtask store.store_parquet
+[2025-02-22T15:20:19.006-0300] {task_command.py:467} INFO - Running <TaskInstance: fii_info.store.store_parquet scheduled__2025-02-22T18:10:00+00:00 [running]> on host LAPTOP-3G01DURD.
+[2025-02-22T15:20:19.087-0300] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='fii_info' AIRFLOW_CTX_TASK_ID='store.store_parquet' AIRFLOW_CTX_EXECUTION_DATE='2025-02-22T18:10:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-02-22T18:10:00+00:00'
+[2025-02-22T15:20:19.088-0300] {taskinstance.py:732} INFO - ::endgroup::
+[2025-02-22T15:20:19.142-0300] {python.py:240} INFO - Done. Returned value was: None
+[2025-02-22T15:20:19.150-0300] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-02-22T15:20:19.150-0300] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=fii_info, task_id=store.store_parquet, run_id=scheduled__2025-02-22T18:10:00+00:00, execution_date=20250222T181000, start_date=20250222T182018, end_date=20250222T182019
+[2025-02-22T15:20:19.203-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-22T15:20:19.221-0300] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-22T15:20:19.222-0300] {local_task_job_runner.py:245} INFO - ::endgroup::
