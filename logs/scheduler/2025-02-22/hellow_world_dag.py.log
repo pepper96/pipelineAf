@@ -2260,3 +2260,24 @@
 [2025-02-22T15:21:27.292-0300] {logging_mixin.py:190} INFO - [2025-02-22T15:21:27.291-0300] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-22T15:21:27.318-0300] {logging_mixin.py:190} INFO - [2025-02-22T15:21:27.317-0300] {dag.py:4180} INFO - Setting next_dagrun for hellow_world_dag to 2025-02-22 00:00:00+00:00, run_after=2025-02-23 00:00:00+00:00
 [2025-02-22T15:21:27.342-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/dags/hellow_world_dag.py took 0.098 seconds
+[2025-02-22T15:21:57.649-0300] {processor.py:186} INFO - Started process (PID=46053) to work on /home/lpimenta/pipelineAf/dags/hellow_world_dag.py
+[2025-02-22T15:21:57.652-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/dags/hellow_world_dag.py for tasks to queue
+[2025-02-22T15:21:57.654-0300] {logging_mixin.py:190} INFO - [2025-02-22T15:21:57.653-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/dags/hellow_world_dag.py
+[2025-02-22T15:21:57.666-0300] {processor.py:925} INFO - DAG(s) 'hellow_world_dag' retrieved from /home/lpimenta/pipelineAf/dags/hellow_world_dag.py
+[2025-02-22T15:21:57.687-0300] {logging_mixin.py:190} INFO - [2025-02-22T15:21:57.687-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T15:21:57.712-0300] {logging_mixin.py:190} INFO - [2025-02-22T15:21:57.712-0300] {dag.py:4180} INFO - Setting next_dagrun for hellow_world_dag to 2025-02-22 00:00:00+00:00, run_after=2025-02-23 00:00:00+00:00
+[2025-02-22T15:21:57.739-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/dags/hellow_world_dag.py took 0.096 seconds
+[2025-02-22T15:22:28.523-0300] {processor.py:186} INFO - Started process (PID=46231) to work on /home/lpimenta/pipelineAf/dags/hellow_world_dag.py
+[2025-02-22T15:22:28.525-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/dags/hellow_world_dag.py for tasks to queue
+[2025-02-22T15:22:28.531-0300] {logging_mixin.py:190} INFO - [2025-02-22T15:22:28.530-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/dags/hellow_world_dag.py
+[2025-02-22T15:22:28.554-0300] {processor.py:925} INFO - DAG(s) 'hellow_world_dag' retrieved from /home/lpimenta/pipelineAf/dags/hellow_world_dag.py
+[2025-02-22T15:22:28.594-0300] {logging_mixin.py:190} INFO - [2025-02-22T15:22:28.593-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T15:22:28.636-0300] {logging_mixin.py:190} INFO - [2025-02-22T15:22:28.636-0300] {dag.py:4180} INFO - Setting next_dagrun for hellow_world_dag to 2025-02-22 00:00:00+00:00, run_after=2025-02-23 00:00:00+00:00
+[2025-02-22T15:22:28.680-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/dags/hellow_world_dag.py took 0.170 seconds
+[2025-02-22T15:22:58.948-0300] {processor.py:186} INFO - Started process (PID=46344) to work on /home/lpimenta/pipelineAf/dags/hellow_world_dag.py
+[2025-02-22T15:22:58.951-0300] {processor.py:914} INFO - Processing file /home/lpimenta/pipelineAf/dags/hellow_world_dag.py for tasks to queue
+[2025-02-22T15:22:58.955-0300] {logging_mixin.py:190} INFO - [2025-02-22T15:22:58.954-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lpimenta/pipelineAf/dags/hellow_world_dag.py
+[2025-02-22T15:22:58.971-0300] {processor.py:925} INFO - DAG(s) 'hellow_world_dag' retrieved from /home/lpimenta/pipelineAf/dags/hellow_world_dag.py
+[2025-02-22T15:22:59.005-0300] {logging_mixin.py:190} INFO - [2025-02-22T15:22:59.005-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-22T15:22:59.037-0300] {logging_mixin.py:190} INFO - [2025-02-22T15:22:59.037-0300] {dag.py:4180} INFO - Setting next_dagrun for hellow_world_dag to 2025-02-22 00:00:00+00:00, run_after=2025-02-23 00:00:00+00:00
+[2025-02-22T15:22:59.062-0300] {processor.py:208} INFO - Processing /home/lpimenta/pipelineAf/dags/hellow_world_dag.py took 0.122 seconds
